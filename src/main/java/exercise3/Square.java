@@ -1,6 +1,6 @@
 package exercise3;
 
-public class Square extends ConvexPolygon {
+public class Square extends ConvexPolygon implements Drawable {
 	public Square(Point upperLeft, int sideLenght){
 		super(new Point[]{
 			upperLeft,
